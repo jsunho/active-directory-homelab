@@ -1,0 +1,33 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Virtualization
+*.iso
+*.vhd
+*.vhdx
+*.vmdk
+*.vmx
+*.vmxf
+*.nvram
+*.vmss
+*.vmem
+
+# Logs
+*.log
+
+# Screenshots (keep only selected ones)
+screenshots_raw/
+
+# Temporary working files
+*.tmp
+*.bak
+
+# VSCode/Editor
+.vscode/
+.idea/
+*.swp
+
+# GPO backups (optional)
+config/gpo-backups/*
+!config/gpo-backups/README.md
