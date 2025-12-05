@@ -69,3 +69,6 @@ Optional stretch goals:
 └── screenshots/
 
 ```
+
+Note: This lab was built using VMware Workstation Pro (personal-use version).
+Installation steps are straightforward and not included in this documentation.
