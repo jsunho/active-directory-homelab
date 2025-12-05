@@ -37,25 +37,7 @@ Optional stretch goals:
 
 ---
 
-## 2. Lab Topology
-
-### 2.1 Network
-
-- Internal network: `10.0.0.0/24`
-- Domain Name: `lab.local` (change if you want)
-- DNS: hosted on DC01
-
-| Hostname  | Role              | IP Address   | OS                      |
-|-----------|-------------------|--------------|-------------------------|
-| DC01      | Domain Controller | `10.0.0.10`  | Windows Server 20xx     |
-| CLIENT01  | Domain Member     | `10.0.0.20`  | Windows 10 / 11         |
-
-> Note: The homelab is intentionally isolated from the internet.  
-> Use snapshots or VM backups before major changes.
-
----
-
-## 3. Requirements
+## 2. Requirements
 
 - Host machine with virtualization support
 - Virtualization software of your choice (e.g. UTM, VirtualBox, VMware, etc.)
@@ -66,21 +48,19 @@ Optional stretch goals:
 
 ---
 
-## 4. Project Structure
+## 3. Project Structure
 
-```text
 .
 ├── README.md
 ├── docs/
 │   ├── 01_lab-overview.md
 │   ├── 02_virtualization-setup.md
-│   ├── 03_install-dc01-windows-server.md
-│   ├── 04_promote-dc01-to-domain-controller.md
-│   ├── 05_create-ou-structure-and-users.md
-│   ├── 06_join-client01-to-domain.md
-│   ├── 07_group-policy-baseline.md
-│   ├── 08_file-shares-and-permissions.md
-│   └── 09_optional-extensions.md
+│   ├── 03_install_windows_server.md
+│   ├── 04_create-ou-structure-and-users.md
+│   ├── 05_join-client01-to-domain.md
+│   ├── 06_group-policy-baseline.md
+│   ├── 07_file-shares-and-permissions.md
+│   └── 08_optional-extensions.md
 ├── diagrams/
 ├── config/
 │   ├── gpo-backups/
