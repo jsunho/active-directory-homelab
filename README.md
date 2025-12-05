@@ -50,6 +50,7 @@ Optional stretch goals:
 
 ## 3. Project Structure
 
+```
 .
 ├── README.md
 ├── docs/
@@ -66,3 +67,5 @@ Optional stretch goals:
 │   ├── gpo-backups/
 │   └── powershell/
 └── screenshots/
+
+```
